@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Windows Telepítés</title>
+</head>
+<body>
+    <aside>
+        
+        <header>
+            <div class="kontener">
+                <nav class="navnav">
+                    <div class="nav-lista" >
+                       <li class="leftli lik">Aktiválás</li>
+                        <li class="leftli lik">Driverek</li>
+                        <li class="leftli lik altLi">Windows
+                            <div class="altMenu1">
+                                <a class="a-scroll" href="win11.html">Windows 11</a>
+                                <a class="a-scroll" href="win10.html">Windows 10</a>
+                                <a class="a-scroll" href="win8.html">Windows 8</a>
+                                <a class="a-scroll" href="win7.html">Windows 7</a>
+                                <a class="a-scroll" href="winxp.html">Windows XP</a>
+                            </div></li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <h1 class="headerh1">Windows</h1>
+    </aside>
+    <div class="mainfo">
+    <div class="mainleft">
+        <h1><span class="spanh1">Első</span> lépések</h1>
+        <p>
+            Először szükségünk lesz a következőkre:
+            <li> Egy pendrájv, ami legalább 8 gigabájt méretű</li>
+            <li> Rufus softver, melyel meg fogjuk formázni a pendrájvunkat</li>
+            <li> Kelleni fog egy ISO fájl, melyet a gyártó oldaláról le tudunk tölteni</li>
+            <li> A jelenleg használt személyes adataink kimentése, mivel ezek törlésre kerülnek a folyamat során</li>
+            <li> Mindezekhez egy olyan számítógép, melyel a folyamatot végre tudjuk hajtani a telepítés előtt</li>
+        </p>
+        <h1><span class="spanh1">Rendszer</span> követelmények</h1>
+        <h1 class="aktivalas"><span class="spanh1">Aktiválás</span></h1>
+        <p>Aktiválás:  - A windows operációs rendszerünket a telepítés folyamán tudjuk aktiválni, de amennyiben nem áll módunkban, később is lesz alkalmunk aktiválásra  - Aktiválni szintén tudunk sötét utakon is, átmenetileg vagy akár örökre</p>
+        <h1 class="driverek"><span class="spanh1">Driverek</span></h1>
+        <p>
+            Driverek:  - Mindenképpen érdemes felrakni a videokártya driverét, melyet a gyártó oldalán el lehet érni  - Amit szintén hasznos feltenni, az az audio driver, melyel a hangkezelés élményét tudjuk fejleszteni  - Szükség szerint érdemes felrakni a LAN és egyéb drivereket
+        </p>
+    </div>
+    <div class="mainright">
+        <p>
+           <a class="right-a" href="https://www.youtube.com/watch?v=hNykPLnFTFQ" target="_blank">Windows 10 telepítése /újratelepítése // Windows 10 install / reinstall guide</a>
+        </p>
+        <hr width="30%" class="hrmid">
+        <p>
+            <a href="https://www.youtube.com/watch?v=1CS88qw1kUU" class="right-a" target="_blank">Windows 10 telepítő készítése pendrive-ra (Rufus)</a>
+        </p>
+        <hr width="30%" class="hrmid">
+    </div>
+</div>
+<script>
+    window.addEventListener('scroll', function () {
+    let header = document.querySelector('header');
+    let windowPosition = window.scrollY > 0;
+    header.classList.toggle('scrolling-active', windowPosition);
+})
+</script>
+</body>
+</html>
